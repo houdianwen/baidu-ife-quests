@@ -1,4 +1,12 @@
-h1{color:blue;}
-h2{font-size:14px;}
-p{font-size:12px;color:yellow;background-color:black;}
-img{border:2px red solid;}
+.div-a{
+  background-color:red;
+  width:100px;
+  height:100px;
+  float:left;
+  
+}
+.div-b{
+  background-color:blue;
+  height:100px;
+  margin-left:100px;
+}
