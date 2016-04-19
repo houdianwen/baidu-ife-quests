@@ -1,5 +1,5 @@
 # baidu-ife-quests
-<b>这里将记载我做百度IFE的过程。</b>
+<b style="color:red;">这里将记载我做百度IFE的过程。</b>
 <html>
 <head>
 <link rel="stylesheet" href="css/style.css" type="text/css" />
