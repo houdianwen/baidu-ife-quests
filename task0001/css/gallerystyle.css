@@ -1,0 +1,273 @@
+*{
+	padding: 0;
+	margin: 0;
+}
+ul{
+	list-style-type: none;
+}
+#header {
+	width: 100%;
+	height: 80px;
+	background-color: black;
+	color: white;
+	position: relative;
+}
+#header #logo{
+	position: absolute;
+	left: 50%;
+	bottom: 5px;
+	margin-left: -490px;
+}
+#header ul{
+	list-style-type: none;
+	overflow: auto;
+	position: absolute;
+	right: 50%;
+	margin-right:-490px;
+	bottom: 5px;
+}
+#header ul li{
+	color: white;;
+	float : left;
+	font-family: Simsun,serif;
+	margin-left: 28px;
+}
+#header ul li a{
+	color: white;
+	text-decoration: none;
+	}
+#header #git{
+	position: absolute;
+	right: 10px;
+	bottom: -4px;
+}
+
+
+.mainBody{
+	width: 100%;
+	height: 1535px;
+	background:#e8e8e8;
+	margin: 0;
+}
+.content{
+	width: 980px;
+	margin: 0  auto 0;
+	overflow: auto;
+	
+}
+.leftBody{
+	float: left;
+	margin-top: 20px;
+}
+.leftBody ul{
+	overflow: auto;
+}
+.leftBody ul li{
+
+	font-size: 12px;
+	float:left;
+
+}
+.leftBody ul li a{
+	padding: 15px 20px 20px;
+	display:block;
+	background-color: #fff;
+	border-left: 1px solid #e8e8e8;
+	border-bottom:1px solid #e8e8e8;
+}
+.leftBody .all a{
+	border-top:4px violet solid;
+	border-left:none;
+}
+.leftBody .Util a{
+	border-top:4px black solid;
+}
+.leftBody .UI a{
+	border-top:4px blue solid;
+}
+.leftBody .Framework a{
+	border-top:4px purple solid;
+}
+.leftBody .Applications a{
+	border-top:4px yellow solid;
+}
+.leftBody a:hover {
+	border-bottom: 1px solid #fff;
+}
+/*picture gallery*/
+#container{
+	float: left;
+	padding: 20px;
+
+	overflow: auto;
+	background-color: #fff;
+}
+#picLeft{
+	width: 330px;
+	float: left;
+}
+#picMid{
+	margin:0 10px;
+}
+#picLeft-Left{
+	margin-right: 10px; 
+}
+.picLine{
+	float: left;
+	width: 160px;
+}
+.picBig{
+	margin-bottom:10px;
+	background-color: red;
+}
+.picSmall{
+	margin-bottom:10px;
+	background-color: #ccc;
+}	/*picture gallery end*/
+/*----------rightbody--------*/
+.rightBody{
+	float: right;
+	margin:74px 0 0 10px;
+	width: 260px;
+	background-color: #e8e8e8;
+	height: 300px;
+}
+.rightBody .search {
+	padding: 20px;
+	background-color: white;
+	margin-bottom:10px;
+	
+}
+.rightBody .search .text{
+	background:transparent url(../img/search.png) no-repeat;
+	height: 38px;
+	width: 116px;
+	padding-left: 50px;
+	margin-right : -10px;
+	color: #ccc;
+}
+.rightBody .search .btn{
+	height: 42px;
+	width: 50px;
+	font-size: 18px;
+	color: white;
+}
+.rightBody input.text:focus{
+	color:black;
+}
+.rightBody input.btn:focus{
+	background-color: #ccc;
+}
+.rightBody .tree{
+	background-color: white;
+	padding:20px;
+} 
+.rightBody .tree h5{
+	font-weight: normal;
+	margin-bottom: 20px;
+}
+.rightBody ul{
+	font-family:"Times New Roman";
+	font-size:14px;
+	line-height: 20px;
+}
+.rightBody .black1,.black2,.black3,.black4,.black5{
+	background-color: black;
+
+	height: 20px;
+}
+.rightBody .black1{
+	width: 100px;
+}
+.rightBody .black2{
+	width: 86px;
+}
+.rightBody .black3{
+	width: 70px;
+}
+.rightBody .black4{
+	width: 44px;
+}
+.rightBody .black5{
+	width: 30px;
+}
+
+.rightBody ul li{
+	padding: 0;
+	height: 20px;
+	margin: 10px 0 5px 0;
+	position : relative;
+}
+.rightBody ul li .number{
+	position: absolute;
+
+	display:inline-block;
+	background-color : black;
+	color: white;
+	border-radius:10px;
+	height: 20px;
+	width: 20px;
+	text-align:center;
+}
+.rightBody .tree .bigg{
+	display:inline-block;
+	background-color: #e8e8e8;
+	width: 100px;
+	height: 20px;
+	margin: 0 10px 0 30px;
+
+}
+.rightBody ul li span{
+	position: absolute;
+	display:inline-block;
+	line-height: 20px;
+}
+
+
+/*---------------footer-----------*/
+#footer {
+	width: 100%;
+	height: 395px;
+	background-color: black;
+	position: relative;
+	color: white;
+}
+#footer .nav{
+	width: 194px;
+	margin: auto;
+	list-style-type: none;
+	overflow: auto;
+}
+#footer .nav li{
+	float:left;
+	margin: 10px;
+	font-size: 14px;
+}
+#footer table{
+
+	margin: auto;
+}
+
+#footer table th,td{
+	width: 200px;
+	text-align: left;
+	font-size: 14px;
+	line-height: 170%;
+	vertical-align:top;
+}
+#footer table td ul{
+	list-style-type: none;
+}
+#footer table td ul a{
+	text-decoration: none;
+}
+#footer table td ul a:hover{
+	text-decoration:underline;
+}
+#footer .logo{
+	
+	position: absolute;
+	bottom:0;
+	left: 50%;
+	margin-left: -15px;
+}

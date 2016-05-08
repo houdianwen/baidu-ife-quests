@@ -1,0 +1,260 @@
+*{
+	margin: 0;
+	padding: 0;
+}
+#header {
+	width: 100%;
+	height: 80px;
+	background-color: black;
+	position: relative;
+}
+#header #logo{
+	position: absolute;
+	left: 50%;
+	bottom: 5px;
+	margin-left: -490px;
+}
+#header ul{
+	list-style-type: none;
+	overflow: auto;
+	position: absolute;
+	right: 50%;
+	margin-right:-490px;
+	bottom: 5px;
+}
+#header ul li{
+	color: white;
+	float : left;
+	font-family: Simsun,serif;
+	margin-left: 28px;
+}
+#header ul li a{
+	color: white;
+	text-decoration: none;
+	}
+#header #git{
+	position: absolute;
+	right: 10px;
+	bottom: -4px;
+}
+#blog {	/* 主体部分，分为两部分，text和tools*/
+	background-color:#E8E8E8;
+	width: 100%;
+	height: 1525px;	
+	position: relative;
+
+}
+#blog #text,#tools{ 	/*右边的工具栏*/
+
+	margin-top: 20px;
+}
+#blog #text{
+	width: 710px;
+	height: 1200px;
+	position: absolute;
+	left: 50%;
+	margin-left: -490px;
+}
+#blog #tools{
+	width: 260px;
+	height: 800px;
+	position: absolute;
+	left: 50%;
+	margin-left: 230px;
+}
+#blog #text .text1{
+	height: 330px;
+	width: 670;
+	padding: 20px;
+	background-color: white;
+	margin-bottom: 10px;
+	position: relative;
+}
+/*左边的悬浮框，日期和css标记*/
+#blog #text .text1 .date{ 
+	height: 80px;
+	width: 50px;
+	list-style-type:none;
+	position: absolute;
+	left: -50px;
+}
+#blog #text .text1 .date .li1,.li2{
+	height: 40px;
+	text-align: center;
+	color: white;
+}
+
+#blog #text .text1 .date .li1{
+	background-color: black;
+}
+#blog #text .text1 .date .li2{
+	background-color: purple;
+}
+#blog #text .text1 h2,h3,p{
+	margin-bottom: 10px;
+}
+#blog #text .text1 h2{
+	font-size: 16px;
+}
+#blog #text .text1 h3{
+	font-size: 12px;
+}
+
+#blog #text .text1 h4{
+	position: absolute;
+	right: 20px;
+	bottom: 20px;
+	font-weight: normal;
+}
+/*紧靠文章下面的选页按钮*/
+#blog #text .page{
+	list-style-type: none;
+	width: 550px;
+	overflow: auto;
+
+	margin: auto;
+}
+#blog #text .page li{
+	float: left;	
+}
+#blog #text .page li a{
+	display: block;
+	background-color: white;
+	padding: 15px;
+	margin: 5px;
+	font-size: 12px;
+}
+#blog #tools .search,.nav,.calender,.tags{
+	margin-bottom: 10px;
+	background-color: white;
+	padding: 20px;
+}
+#blog #tools .search #ipText {
+	height: 35px;
+}
+#blog #tools .search #ipSub{
+	height: 40px;
+	width: 50px;
+	background-color: #ccc;
+	color: white;
+	font-size: 20px;
+}
+
+#blog #tools .nav{
+
+	list-style-type:none;
+	padding: 0;
+
+}
+#blog #tools .nav li{
+//	height: 59px;
+//	width: 258px;
+//	border-bottom: 1px solid #E8E8E8;
+//	border-left:4px #f9f solid;
+}
+#blog #tools .nav li a{
+	display:block;
+	border-bottom: 1px #e8e8e8 solid;
+	text-decoration: none;
+	color: black;
+	border-left: 4px #fcf solid;
+	font-size: 14px;
+	padding: 20px;
+}
+#blog #tools .nav li a:hover{
+	border-left-color: black;
+}
+/*日历*/
+#tools .calender{
+	padding: 20px;
+	width:220px;
+	list-style-type: none;
+	overflow: auto;
+}
+#tools  .calender > li{
+	border-bottom: 1px #e8e8e8 solid;
+	overflow:auto;
+	text-align: center;
+}
+#tools .calender ul{
+	list-style-type: none;
+}
+#tools .calender ul li{
+	float: left;
+}
+#tools .calender ul li a{
+	display: block;
+	padding: 8px 12px;
+//	background-color: #e8e8e8;
+	font-size: 12px;
+}
+#tools .calender ul li a:hover{
+	background-color: black;
+	color: white;
+}
+.tags span.biger,span.big{
+	color: purple;
+
+	font-weight: bold;
+}
+.tags{
+	font-size: 12px;
+	line-height: 140%;
+}
+.tags span.biger{	
+	font-size: 25px;
+}
+.tags span.big{
+	font-size: 20px;
+}
+/*下面是页脚*/
+#footer {
+	width: 100%;
+	height: 395px;
+	background-color: black;
+	position: relative;
+}
+#footer .nav{
+	width: 194px;
+	margin: auto;
+	padding: 0;
+	list-style-type: none;
+	overflow: auto;
+	background-color: black;
+	color: white;
+}
+#footer .nav li{
+	float:left;
+	margin: 10px;
+	font-size: 14px;
+}
+#footer table{
+
+	margin: auto;
+}
+
+#footer table th,td{
+	width: 200px;
+	text-align: left;
+	font-size: 14px;
+	line-height: 170%;
+	vertical-align:top;
+	color: white;
+}
+#footer table td ul{
+	list-style-type: none;
+}
+#footer table td ul a{
+	text-decoration: none;
+	color :white;
+}
+#footer table td ul a:hover{
+	text-decoration:underline;
+}
+#footer .logo{
+	
+	position: absolute;
+	bottom:0;
+	left: 50%;
+	margin-left: -15px;
+}
